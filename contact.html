@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Debora Mendes Contact</title>
+		<link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOtthj1iIPyUzmzvF7e5jiu4-ZbNn2AUEX8Q&usqp=CAU">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="JS/formjs.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allura">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+			<div id="wrap">
+				<div id="top">
+						<h1>Debora Mendes Photography</h1>
+				</div>
+				<div id="nav">
+					<ul> 
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About me</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div id="main"  class="bg-img">
+				<h1> Contact Us </h1>
+					 <form action="index.html" onsubmit=myFunction()>
+						  <div class="row">
+							<div class="col-10">
+							  <label for="namec">Name</label>
+							</div>
+							<div class="col-50">
+							  <input type="text" id="namec" name="namec" placeholder="Your name..." required>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-10">
+							  <label for="email">Email</label>
+							</div>
+							<div class="col-50">
+							  <input type="email" id="email" name="email" placeholder="Your email..." required>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-10">
+							  <label for="phone">Phone</label>
+							</div>
+							<div class="col-50">
+							  <input type="tel" id="phone" name="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="999 999 9999" required>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-10">
+							  <label for="event">Type Of Event</label>
+							</div>
+							<div class="col-50">
+							  <select id="event" name="event" required>
+							  	<option value="">Select an option</option>
+								<option value="newborn">New Born</option>
+								<option value="family">Family</option>
+								<option value="birthday">Birthday</option>
+								<option value="wedding">Wedding</option>
+								<option value="othe">Other</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-10">
+							  <label for="date">Date</label>
+							</div>
+							<div class="col-50">
+							  <input type="date" id="date" name="date" required>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-10">
+							  <label for="more">More info</label>
+							</div>
+							<div class="col-50">
+							  <textarea id="more" name="more" placeholder="More detail about your event..." style="height:200px"></textarea>
+							</div>
+						  </div>
+						  <div class="row">
+							<input type="submit" value="Submit">
+						  </div>
+						  </form> 
+					 </div>
+				<div id = "footer"> Copyright &copy; Debora Mendes </div>	
+			</div>
+		<script src="JS/formjs.js"></script>
+	</body>
+
+</html>

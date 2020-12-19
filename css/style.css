@@ -1,0 +1,217 @@
+	/* INDEX (HEADER, NAV AND FOOTER) */		
+		#top{
+			font-family: "Allura", sans-serif;
+			font-size: 30pt;
+			padding: 0px;
+			margin-top: 0px;
+			
+			}
+			
+		#nav{
+			display: block;
+			color: black;
+			width: 100%;
+			text-align: left;
+			cursor: pointer;
+			transition: 0.3s;
+			}
+
+		#nav ul {
+			list-style-type: none;
+			text-transform: uppercase;
+			padding: 0;
+			position: absolute;
+			top: 130px;
+			left: 120px;
+			
+			}
+						
+		#nav li {
+			
+			display: inline-table;
+			background-color: #dddddd;
+			padding: 10px;
+			margin: 2px;
+			transition: background-color 2s;
+					
+			}
+
+		#nav li:hover{
+				background-color: #606060;
+			
+		}
+			
+		#nav ul a {
+			font-size: 12pt;
+			color: black;
+			text-decoration: none;
+					
+			}
+			
+		p{
+			font-family: "Allura", sans-serif;
+			font-size: 20pt;
+			padding: 0px 10px;
+			}
+			
+			
+		#footer{
+			background-color: white;
+			text-align: center;
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			font-family: "Allura", sans-serif;
+			}
+
+	
+	/* CONTACT */	
+	
+
+* {
+  box-sizing: border-box;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  
+}
+
+label {
+  padding: 0 0 0 0;
+  display: inline-block;
+  font-family: "Allura", sans-serif;
+  font-size:26px;
+  font-weight: bold;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 54%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.bg-img {
+  border-radius: 5px;
+  background-image: url("images/image1.jpeg");
+  padding: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Allura", sans-serif;
+}
+
+.col-10 {
+  float: left;
+  width: 11%;
+  margin-top: 6px;
+}
+
+.col-50 {
+  float: left;
+  width: 43%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+		/* About US*/
+		#name
+		{	
+		padding:0px;
+		color:black;
+		text-shadow: black 0.1em 0.3em 0.5em;
+		clear:left;
+		margin: 1px;
+		font-family:"Allura", sans-serif;
+		font-size:40px;
+		margin:2px;
+
+		}
+		#nav2
+		{
+		display: block;
+		color: black;
+		width: 100%;
+		text-align: left;
+		cursor: pointer;
+		transition: 0.3s;
+
+		}
+
+		#nav2 li
+		{
+		display: inline-table;
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 2s;
+		}
+
+
+		#nav2 li:hover{
+		background-color: #606060;
+			
+		}
+
+		#nav2 ul
+		{
+		list-style-type: none;
+		text-transform: uppercase;
+		padding: 0;
+		position: absolute;
+		top: 130px;
+		left: 120px;
+		}
+
+		#nav2 ul a
+		{
+		font-size: 12pt;
+		color: black;
+		text-decoration: none;
+				
+		}
+
+		p 
+		{	
+		font-family:"Allura", sans-serif;
+		font-size:27px;
+		width: 900px;
+		height: 10px;
+		text-align: justify;
+		padding-bottom:0.1em;
+
+		}
+
+		#debora
+		{
+		background:url("images/deboraImage.jpg");
+		position:relative;
+		left:950px;
+		width: 100%;
+		height: 100%;
+		padding-bottom:2em;
+		}
+
+
+
+
